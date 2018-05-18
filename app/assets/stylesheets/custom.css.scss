@@ -1,2 +1,55 @@
+.black {
+  color: #000000;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777777;
+}
+
+.footer a:hover {
+  color: #222222;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.jumbotron {
+  background-image: asset-url('criminal-minds.jpg');
+  background-size: cover;
+  height: 600px;
+  // margin-top: -5rem;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.lead {
+  color: whitesmoke;
+  letter-spacing: -1px;
+  margin-top: -2rem;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.textbox {
+  margin-top: -7rem;
+}
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
